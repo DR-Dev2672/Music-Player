@@ -8,10 +8,10 @@ const shuffleButton = document.getElementById("shuffle");
 const allSongs = [
   {
     id: 0,
-    title: "Scratching The Surface",
-    artist: "Quincy Larson",
+    title: "Ghar me padharo",
+    artist: "Bhakti",
     duration: "4:25",
-    src: "https://cdn.freecodecamp.org/curriculum/js-music-player/scratching-the-surface.mp3",
+    src: "Songs/ghar_me_padharo.mp3",
   },
   {
     id: 1,
