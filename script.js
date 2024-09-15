@@ -9,71 +9,71 @@ const allSongs = [
   {
     id: 0,
     title: "Tu Hai Kahan",
-    artist: "Bhakti",
-    duration: "4:25",
+    artist: "Aur",
+    duration: "4:23",
     src: "Songs/_Tu Hai Kahan_320(PagalWorld.com.sb).mp3",
   },
   {
     id: 1,
     title: "Zaroor",
-    artist: "Quincy Larson",
-    duration: "4:15",
+    artist: "Aparshakti Khurana",
+    duration: "2:46",
     src: "Songs/_Zaroor_320(PagalWorld.com.sb).mp3",
   },
   {
     id: 2,
     title: "Dil Tu Jaan Tu",
-    artist: "Quincy Larson",
-    duration: "3:51",
+    artist: "Gurnazar",
+    duration: "3:57",
     src: "Songs/Dil Tu Jaan Tu_320(PagalWorld.com.sb).mp3",
   },
   {
     id: 3,
     title: "Husn",
-    artist: "Quincy Larson",
-    duration: "3:34",
+    artist: "Anuv Jain",
+    duration: "3:38",
     src: "Songs/Husn_320(PagalWorld.com.sb).mp3",
   },
   {
     id: 4,
     title: "Millionaire",
-    artist: "Quincy Larson",
-    duration: "3:35",
+    artist: "Honey Singh",
+    duration: "3:19",
     src: "Songs/Millionaire_320(PagalWorld.com.sb).mp3",
   },
   {
     id: 5,
     title: "O Mahi O Mahi",
-    artist: "Quincy Larson",
-    duration: "3:12",
+    artist: "Arijit Singh",
+    duration: "3:53",
     src: "Songs/O Mahi O Mahi_320(PagalWorld.com.sb).mp3",
   },
   {
     id: 6,
     title: "Shubh - No Love",
-    artist: "Quincy Larson",
-    duration: "3:25",
+    artist: "Shubh",
+    duration: "2:50",
     src: "Songs/Shubh - No Love_320(PagalWorld.com.sb).mp3",
   },
   {
     id: 7,
     title: "Thumka Mashup 2024",
-    artist: "Quincy Larson",
-    duration: "3:52",
+    artist: "Various Artist",
+    duration: "3:32",
     src: "Songs/Thumka Mashup 2024 - Dip SR_320(PagalWorld.com.sb).mp3",
   },
   {
     id: 8,
     title: "Tinku Jiya",
-    artist: "Quincy Larson",
-    duration: "3:10",
+    artist: "Mamta Sharma",
+    duration: "4:58",
     src:"Songs/Tinku Jiya_320(PagalWorld.com.sb).mp3",
   },
   {
     id: 9,
     title: "Ghar Me Padharo Gajanan",
-    artist: "Quincy Larson",
-    duration: "2:43",
+    artist: "Sapna Awasthi",
+    duration: "4:49",
     src: "Songs/ghar_me_padharo.mp3",
   },
 ];
@@ -208,6 +208,7 @@ const renderSongs = (array) => {
       <li id="song-${song.id}" class="playlist-song">
       <button class="playlist-song-info" onclick="playSong(${song.id})">
           <span class="playlist-song-title">${song.title}</span>
+
           <span class="playlist-song-artist">${song.artist}</span>
           <span class="playlist-song-duration">${song.duration}</span>
       </button>
